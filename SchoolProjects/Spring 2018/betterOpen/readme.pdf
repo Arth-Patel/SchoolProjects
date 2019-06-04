@@ -1,0 +1,7 @@
+The libnetfiles.c is meant for access to read and write from a fileserver.
+To setup the server put netfileserver on the server you wish to gain files from and run /server to start it
+The commands in libnetfiles are netserverinit which is needed to link the fileserver and the client. This needs to be run before any of the other commands;
+Usage netserverinit(char *hostname, int filemode). The file modes are 0 for Unrestricted, 1 for exclusive, and 2 for transaction mode.
+The other commands are netopen/netread/netwrite/netclose. You can get a file descriptor that works with the net commands with netopen.
+Netopen/netread/netwrite/netclose work just like open/read/write/close on the netfileserver and it brings it back to the client.
+

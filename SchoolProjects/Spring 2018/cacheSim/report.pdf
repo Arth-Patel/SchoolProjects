@@ -1,0 +1,9 @@
+I used a hashtable to work as a cache where it can be constantly expanding. I did most of my testing using a couple test cases starting with the simplest case with direct and then moving on from there. I used the amount of lines in a set to help cut off the amount of nodes that are in a hashtable.
+
+
+1. For most of the test cases the number of hits was increased and as well were the reads. The reads increased drastically for pretty much all testing. The hits were not as consistent. There is no guarantee that it will increase hits because the person who made the variables could have not have declared them at the same place.  Reads are constant because every time theres a miss and the next load isn't in you have to load that in from main memory. You could also be knocking something else that might needed off by doing that.
+
+2. I would need to change my program to be more inclusive for a 2 level cache. I would set up my Hashtables as global variables with a lot more functions usage.With only one cache its ok to stick to less functions. With more functiions and globals variables it allows for more than just 2 caches.
+
+3. I think that we would have to make sure to keep track of any memory which is in the cache that hasn't been written to main memory. Because if it it ends up being cut off without being written , you won't have that updated data. You could write everything before it leaves the cache but that would also involve a lot more writes.  The amount of writes wouldn't change if you kept to the first method but the cache would be filled with only pieces of memory that are being written.
+

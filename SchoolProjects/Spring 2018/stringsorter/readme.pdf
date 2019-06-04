@@ -1,0 +1,7 @@
+Usage: ./stringsorter (argument) 
+
+This program allows for you to put in any amount of words you want in one argument with any amount of any non-alpha characters between them. It will them print the words back to you in alphabetical order.
+
+It originally runs through the argument and gathers the amount of words and length of the biggest word to create an array that would use the least space. Then it puts the words into the array.
+
+Then the program sorts the array by comparing neighbors of the nonsorted array and looping throught it how many times necessary.

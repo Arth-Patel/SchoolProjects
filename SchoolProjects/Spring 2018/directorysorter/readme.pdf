@@ -1,0 +1,9 @@
+./index [arg1] [arg2]
+
+The first argument is where the indexing of the second is being stored. References every word in every file in arg2, will go through a directory. Will need to be confirmed if the first file is already written. The new file will have the words in alphabetical order and listing every time it appears in each file.
+
+The reading of every file is O(n), it scans every character and creates a word by creating a new string with every new nonalphanumeric character.
+
+Inserting into the linked list is a O(log(n)) operation because it puts it in the right spot in the linked list.
+
+Printing the list is a O(n) because it just iterated through the list

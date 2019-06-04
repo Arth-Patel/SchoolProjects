@@ -1,0 +1,113 @@
+Testcase 1
+./stringsorter i913219love9103281taco1231283bell
+Expected:
+bell
+i
+love
+taco
+
+Returned:
+bell
+i
+love
+taco
+
+Testcase 2
+./stringsorter 412My1238friend1891891Sally12931890went31231to1382193Walmart
+Expected:
+My
+Sally
+Walmart
+friend
+to
+went
+
+Returned:
+My
+Sally
+Walmart
+friend
+to
+went
+
+Testcase 3
+./stringsorter "Brandon and Arth finished the String Project early"
+Expected:
+Arth
+Brandon
+String
+Project
+and
+early
+finished
+
+Returned:
+Arth
+Brandon
+String
+Project
+and
+early
+finished
+
+
+Testcase 4
+./stringsorter 45567apple1323213APPLE1312312312apple12390123123buns1293123Burrito
+Expeceted:
+APPLE
+Burrito
+apple
+apple
+buns
+
+Returned:
+APPLE
+Burrito
+apple
+apple
+buns
+
+Testcase 5
+./stringsorter 123123money2fun,have,blarp123
+Expected:
+blarp
+fun
+have
+money
+
+Returned:
+blarp
+fun
+have
+money
+
+Testcase 6
+./stringsorter fun bags
+Expected:
+TOO MANY ARGUMENTS
+
+Returned:
+TOO MANY ARGUMENTS
+
+Testcase 7
+./stringsorter
+Expected:
+Not enough arguments
+
+Returned:
+Not enough arguments
+
+Testcase 8
+./stringsorter 12391203812903819023
+Expected:
+
+Returned:
+
+Testcase 9
+./stringsorter ""
+Expected:
+
+Returned:
+
+
+
